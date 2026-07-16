@@ -1,0 +1,13 @@
+flowchart LR
+    T1["Hilo A"] --> L["load valor actual"]
+    T2["Hilo B"] --> F["fetch_add / CAS"]
+    T3["Hilo C"] --> S["store bandera"]
+    L --> M["una celda atómica"]
+    F --> M
+    S --> M
+    M --> O["operación indivisible sobre una variable"]
+    O --> R["resultado visible para cargas posteriores"]
+    F --> C{"¿CAS coincide?"}
+    C -- "sí" --> U["actualiza valor"]
+    C -- "no" --> E["observa valor nuevo y reintenta"]
+    E --> F

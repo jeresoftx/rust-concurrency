@@ -178,10 +178,10 @@ For each chapter, complete the following checklist before moving to the next top
 - Create: `examples/atomics_advanced.rs`
 - Create: `examples/atomics_real_case.rs`
 
-- [ ] Teach atomic load/store, fetch-add, compare-exchange, counters, flags, CAS loops, and overflow policy.
-- [ ] Compare against Mutex, channels, thread-local aggregation, and sequential code.
-- [ ] Include tests for counters, flags, compare-exchange success/failure, and concurrent aggregation.
-- [ ] Include benchmarks for atomic increments, mutex-protected increments, and per-thread aggregation.
+- [x] Teach atomic load/store, fetch-add, compare-exchange, counters, flags, CAS loops, and overflow policy.
+- [x] Compare against Mutex, channels, thread-local aggregation, and sequential code.
+- [x] Include tests for counters, flags, compare-exchange success/failure, and concurrent aggregation.
+- [x] Include benchmarks for atomic increments, mutex-protected increments, and per-thread aggregation.
 
 ### Task 8: Arc
 

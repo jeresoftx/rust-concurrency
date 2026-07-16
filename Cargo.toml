@@ -37,10 +37,26 @@ path = "examples/soluciones/rwlock_shared_catalog.rs"
 name = "solution_rwlock_recover_poisoning"
 path = "examples/soluciones/rwlock_recover_poisoning.rs"
 
+[[example]]
+name = "solution_atomics_counter_trace"
+path = "examples/soluciones/atomics_counter_trace.rs"
+
+[[example]]
+name = "solution_atomics_publish_flag"
+path = "examples/soluciones/atomics_publish_flag.rs"
+
+[[example]]
+name = "solution_atomics_record_max"
+path = "examples/soluciones/atomics_record_max.rs"
+
 [[bench]]
 name = "mutex_bench"
 harness = false
 
 [[bench]]
 name = "rwlock_bench"
+harness = false
+
+[[bench]]
+name = "atomics_bench"
 harness = false

@@ -35,7 +35,7 @@ se explican en este repositorio antes de reutilizarse en cursos posteriores.
 |---|----------|--------|--------|
 | 01 | Mutex | `src/mutex.rs` | benchmarked |
 | 02 | RwLock | `src/rwlock.rs` | benchmarked |
-| 03 | Atomics | `src/atomics.rs` | planned |
+| 03 | Atomics | `src/atomics.rs` | benchmarked |
 | 04 | Arc | `src/arc.rs` | planned |
 | 05 | Memory Ordering | `src/memory_ordering.rs` | planned |
 | 06 | Deadlocks | `src/deadlocks.rs` | planned |
