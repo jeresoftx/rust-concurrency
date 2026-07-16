@@ -27,7 +27,7 @@ El checklist detallado vive en
 | 06 | Deadlocks | benchmarked |
 | 07 | Channels | benchmarked |
 | 08 | Lock-Free Structures | benchmarked |
-| 09 | Hazard Pointers | planned |
+| 09 | Hazard Pointers | benchmarked |
 | 10 | Epoch GC | planned |
 
 ## Alineación RFC-0001

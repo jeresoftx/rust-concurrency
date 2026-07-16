@@ -1,0 +1,13 @@
+flowchart LR
+    R["lector"] --> P["publica hazard pointer"]
+    P --> V["valida nodo"]
+    V --> U["usa nodo"]
+    U --> C["limpia protección"]
+    W["escritor"] --> RET["retira nodo"]
+    RET --> LIST["lista de retirados"]
+    LIST --> S["scan"]
+    S --> H{"¿nodo protegido?"}
+    H -- "sí" --> D["retrasar reclamación"]
+    H -- "no" --> REC["reclamar nodo"]
+    D --> LIST
+    C --> S

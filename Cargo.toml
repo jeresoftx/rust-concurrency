@@ -109,6 +109,18 @@ path = "examples/soluciones/lock_free_aba_scenario.rs"
 name = "solution_lock_free_concurrent_stack"
 path = "examples/soluciones/lock_free_concurrent_stack.rs"
 
+[[example]]
+name = "solution_hazard_protect_node"
+path = "examples/soluciones/hazard_protect_node.rs"
+
+[[example]]
+name = "solution_hazard_delayed_reclaim"
+path = "examples/soluciones/hazard_delayed_reclaim.rs"
+
+[[example]]
+name = "solution_hazard_threshold_scan"
+path = "examples/soluciones/hazard_threshold_scan.rs"
+
 [[bench]]
 name = "mutex_bench"
 harness = false
@@ -139,4 +151,8 @@ harness = false
 
 [[bench]]
 name = "lock_free_bench"
+harness = false
+
+[[bench]]
+name = "hazard_pointers_bench"
 harness = false

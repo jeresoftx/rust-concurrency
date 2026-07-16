@@ -41,7 +41,7 @@ se explican en este repositorio antes de reutilizarse en cursos posteriores.
 | 06 | Deadlocks | `src/deadlocks.rs` | benchmarked |
 | 07 | Channels | `src/channels.rs` | benchmarked |
 | 08 | Lock-Free Structures | `src/lock_free.rs` | benchmarked |
-| 09 | Hazard Pointers | `src/hazard_pointers.rs` | planned |
+| 09 | Hazard Pointers | `src/hazard_pointers.rs` | benchmarked |
 | 10 | Epoch GC | `src/epoch_gc.rs` | planned |
 
 Estados posibles: `planned`, `draft`, `implemented`, `tested`,

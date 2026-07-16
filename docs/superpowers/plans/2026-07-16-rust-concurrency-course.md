@@ -287,10 +287,10 @@ For each chapter, complete the following checklist before moving to the next top
 - Create: `examples/hazard_pointers_advanced.rs`
 - Create: `examples/hazard_pointers_real_case.rs`
 
-- [ ] Teach safe memory reclamation, protected pointers, retired lists, scanning, delayed reclamation, and per-thread records.
-- [ ] Compare against epoch GC, reference counting, garbage collection, and leaking memory.
-- [ ] Include tests for protecting a node, retiring a node, delayed reclamation while protected, and reclamation after unprotect.
-- [ ] Include benchmarks for scan cost, retire threshold, and protected read overhead.
+- [x] Teach safe memory reclamation, protected pointers, retired lists, scanning, delayed reclamation, and per-thread records.
+- [x] Compare against epoch GC, reference counting, garbage collection, and leaking memory.
+- [x] Include tests for protecting a node, retiring a node, delayed reclamation while protected, and reclamation after unprotect.
+- [x] Include benchmarks for scan cost, retire threshold, and protected read overhead.
 
 ### Task 14: Epoch GC
 
