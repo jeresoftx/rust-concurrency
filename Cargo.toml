@@ -1,0 +1,14 @@
+[package]
+name = "rust-concurrency"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/jeresoftx/rust-concurrency"
+description = "Concurrencia en Rust para Jeresoft Academy."
+readme = "README.md"
+
+[lib]
+name = "rust_concurrency"
+path = "src/lib.rs"
+
+[dependencies]
