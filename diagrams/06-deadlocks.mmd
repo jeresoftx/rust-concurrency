@@ -1,0 +1,12 @@
+flowchart LR
+    A["Hilo A sostiene lock 1"] --> B["espera lock 2"]
+    C["Hilo B sostiene lock 2"] --> D["espera lock 1"]
+    B --> G["grafo wait-for"]
+    D --> G
+    G --> X{"¿hay ciclo?"}
+    X -- "sí" --> DL["deadlock posible"]
+    X -- "no" --> OK["espera sin ciclo"]
+    P["prevención"] --> O["orden total de locks"]
+    O --> L1["adquirir menor rango primero"]
+    L1 --> L2["adquirir mayor rango después"]
+    L2 --> NC["rompe espera circular"]

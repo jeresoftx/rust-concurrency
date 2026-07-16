@@ -73,6 +73,18 @@ path = "examples/soluciones/memory_ordering_relaxed_counter.rs"
 name = "solution_memory_ordering_cas"
 path = "examples/soluciones/memory_ordering_cas.rs"
 
+[[example]]
+name = "solution_deadlocks_lock_order"
+path = "examples/soluciones/deadlocks_lock_order.rs"
+
+[[example]]
+name = "solution_deadlocks_wait_for_cycle"
+path = "examples/soluciones/deadlocks_wait_for_cycle.rs"
+
+[[example]]
+name = "solution_deadlocks_ordered_transfer"
+path = "examples/soluciones/deadlocks_ordered_transfer.rs"
+
 [[bench]]
 name = "mutex_bench"
 harness = false
@@ -91,4 +103,8 @@ harness = false
 
 [[bench]]
 name = "memory_ordering_bench"
+harness = false
+
+[[bench]]
+name = "deadlocks_bench"
 harness = false

@@ -100,8 +100,8 @@ impl LockOrderTracker {
 
     /// Registra la entrada a un lock si respeta el orden total.
     ///
-    /// Complejidad: O(1), porque solo compara contra el último rango máximo
-    /// sostenido por este modelo.
+    /// Complejidad: O(k), porque busca el máximo entre los locks sostenidos
+    /// por este modelo.
     pub fn enter(&mut self, requested: LockRank) -> Result<(), LockOrderViolation> {
         if let Some(held) = self.held.iter().max().copied() {
             if requested < held {

@@ -232,10 +232,10 @@ For each chapter, complete the following checklist before moving to the next top
 - Create: `examples/deadlocks_advanced.rs`
 - Create: `examples/deadlocks_real_case.rs`
 
-- [ ] Teach Coffman conditions, wait-for graphs, lock ordering, timeouts, try-lock strategies, and API design that prevents circular waits.
-- [ ] Compare prevention, avoidance, detection, and recovery.
-- [ ] Include tests for lock-order validation, wait-for graph cycle detection, and safe transfer examples.
-- [ ] Include benchmarks only if a prevention strategy has measurable overhead; otherwise explain why it does not apply.
+- [x] Teach Coffman conditions, wait-for graphs, lock ordering, timeouts, try-lock strategies, and API design that prevents circular waits.
+- [x] Compare prevention, avoidance, detection, and recovery.
+- [x] Include tests for lock-order validation, wait-for graph cycle detection, and safe transfer examples.
+- [x] Include benchmarks only if a prevention strategy has measurable overhead; otherwise explain why it does not apply.
 
 ### Task 11: Channels
 

@@ -38,7 +38,7 @@ se explican en este repositorio antes de reutilizarse en cursos posteriores.
 | 03 | Atomics | `src/atomics.rs` | benchmarked |
 | 04 | Arc | `src/arc.rs` | benchmarked |
 | 05 | Memory Ordering | `src/memory_ordering.rs` | benchmarked |
-| 06 | Deadlocks | `src/deadlocks.rs` | planned |
+| 06 | Deadlocks | `src/deadlocks.rs` | benchmarked |
 | 07 | Channels | `src/channels.rs` | planned |
 | 08 | Lock-Free Structures | `src/lock_free.rs` | planned |
 | 09 | Hazard Pointers | `src/hazard_pointers.rs` | planned |
