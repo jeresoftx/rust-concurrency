@@ -1,0 +1,12 @@
+flowchart LR
+    A["Shared<T> fuerte"] --> H["valor T en heap"]
+    B["clone_shared()"] --> H
+    C["Shared<T> fuerte"] --> H
+    A --> S["strong_count"]
+    C --> S
+    W["SharedWeak<T> débil"] -. "downgrade()" .-> H
+    W --> K["weak_count"]
+    W -- "upgrade()" --> U{"¿strong_count > 0?"}
+    U -- "sí" --> N["nuevo Shared<T>"]
+    U -- "no" --> X["None"]
+    H --> M["mutabilidad compartida requiere interior lock"]

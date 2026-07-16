@@ -22,7 +22,7 @@ El checklist detallado vive en
 | 01 | Mutex | benchmarked |
 | 02 | RwLock | benchmarked |
 | 03 | Atomics | benchmarked |
-| 04 | Arc | planned |
+| 04 | Arc | benchmarked |
 | 05 | Memory Ordering | planned |
 | 06 | Deadlocks | planned |
 | 07 | Channels | planned |

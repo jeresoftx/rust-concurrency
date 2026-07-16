@@ -49,6 +49,18 @@ path = "examples/soluciones/atomics_publish_flag.rs"
 name = "solution_atomics_record_max"
 path = "examples/soluciones/atomics_record_max.rs"
 
+[[example]]
+name = "solution_arc_clone_counts"
+path = "examples/soluciones/arc_clone_counts.rs"
+
+[[example]]
+name = "solution_arc_shared_catalog"
+path = "examples/soluciones/arc_shared_catalog.rs"
+
+[[example]]
+name = "solution_arc_weak_upgrade"
+path = "examples/soluciones/arc_weak_upgrade.rs"
+
 [[bench]]
 name = "mutex_bench"
 harness = false
@@ -59,4 +71,8 @@ harness = false
 
 [[bench]]
 name = "atomics_bench"
+harness = false
+
+[[bench]]
+name = "arc_bench"
 harness = false

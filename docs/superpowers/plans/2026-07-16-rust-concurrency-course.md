@@ -196,10 +196,10 @@ For each chapter, complete the following checklist before moving to the next top
 - Create: `examples/arc_advanced.rs`
 - Create: `examples/arc_real_case.rs`
 
-- [ ] Teach atomic reference counting, shared ownership, `Send`/`Sync` boundaries, `Arc<Mutex<T>>`, weak references, and cycle risks.
-- [ ] Compare against `Rc`, borrowing, cloning data, channels, and scoped threads.
-- [ ] Include tests for clone counts, weak upgrade/drop behavior, shared immutable data, and shared mutable data through a lock.
-- [ ] Include benchmarks for clone/drop overhead and shared read access.
+- [x] Teach atomic reference counting, shared ownership, `Send`/`Sync` boundaries, `Arc<Mutex<T>>`, weak references, and cycle risks.
+- [x] Compare against `Rc`, borrowing, cloning data, channels, and scoped threads.
+- [x] Include tests for clone counts, weak upgrade/drop behavior, shared immutable data, and shared mutable data through a lock.
+- [x] Include benchmarks for clone/drop overhead and shared read access.
 
 ### Task 9: Memory Ordering
 
