@@ -77,6 +77,19 @@ fn concurrent_counter_aggregation_does_not_lose_updates() {
 
 #[test]
 fn cas_loop_records_largest_value() {
+    let max = AtomicMax::new(10);
+
+    max.record(12);
+    max.record(11);
+    max.record(15);
+    max.record(14);
+
+    assert_eq!(max.load(), 15);
+    assert!(max.observations().compare_exchange_attempts >= 2);
+}
+
+#[test]
+fn atomic_max_keeps_largest_value_across_threads() {
     let max = Arc::new(AtomicMax::new(10));
     let mut workers = Vec::new();
 
@@ -92,5 +105,4 @@ fn cas_loop_records_largest_value() {
     }
 
     assert_eq!(max.load(), 15);
-    assert!(max.observations().compare_exchange_attempts >= 2);
 }
