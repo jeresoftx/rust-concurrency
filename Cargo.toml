@@ -97,6 +97,18 @@ path = "examples/soluciones/channels_bounded_backpressure.rs"
 name = "solution_channels_worker_pool"
 path = "examples/soluciones/channels_worker_pool.rs"
 
+[[example]]
+name = "solution_lock_free_lifo_stack"
+path = "examples/soluciones/lock_free_lifo_stack.rs"
+
+[[example]]
+name = "solution_lock_free_aba_scenario"
+path = "examples/soluciones/lock_free_aba_scenario.rs"
+
+[[example]]
+name = "solution_lock_free_concurrent_stack"
+path = "examples/soluciones/lock_free_concurrent_stack.rs"
+
 [[bench]]
 name = "mutex_bench"
 harness = false
@@ -123,4 +135,8 @@ harness = false
 
 [[bench]]
 name = "channels_bench"
+harness = false
+
+[[bench]]
+name = "lock_free_bench"
 harness = false

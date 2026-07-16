@@ -1,0 +1,14 @@
+flowchart LR
+    A["leer head actual"] --> B["preparar nodo y next"]
+    B --> C{"compare_exchange"}
+    C -- "éxito" --> D["publicar nuevo head"]
+    C -- "fallo" --> E["otro hilo ganó"]
+    E --> F["recargar head"]
+    F --> B
+    D --> G["operación completa"]
+    A --> ABA["riesgo ABA"]
+    ABA --> H["A -> B -> A"]
+    H --> I["el índice parece igual"]
+    I --> J["la historia cambió"]
+    G --> P["lock-free: alguien progresa"]
+    E --> P

@@ -268,11 +268,11 @@ For each chapter, complete the following checklist before moving to the next top
 - Create: `examples/lock_free_advanced.rs`
 - Create: `examples/lock_free_real_case.rs`
 
-- [ ] Teach progress guarantees, CAS loops, ABA, retry behavior, false sharing, and why lock-free does not mean wait-free.
-- [ ] Prefer safe Rust models first. Any `unsafe` requires `// SAFETY:` and written justification in the chapter.
-- [ ] Compare against Mutex, channels, sharding, and wait-free designs.
-- [ ] Include tests for stack/queue model correctness, concurrent push/pop behavior, and ABA demonstration if safely modelable.
-- [ ] Include benchmarks contrasting lock-free model and locked baseline under contention.
+- [x] Teach progress guarantees, CAS loops, ABA, retry behavior, false sharing, and why lock-free does not mean wait-free.
+- [x] Prefer safe Rust models first. Any `unsafe` requires `// SAFETY:` and written justification in the chapter.
+- [x] Compare against Mutex, channels, sharding, and wait-free designs.
+- [x] Include tests for stack/queue model correctness, concurrent push/pop behavior, and ABA demonstration if safely modelable.
+- [x] Include benchmarks contrasting lock-free model and locked baseline under contention.
 
 ### Task 13: Hazard Pointers
 
