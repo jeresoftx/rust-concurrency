@@ -23,7 +23,7 @@ El checklist detallado vive en
 | 02 | RwLock | benchmarked |
 | 03 | Atomics | benchmarked |
 | 04 | Arc | benchmarked |
-| 05 | Memory Ordering | planned |
+| 05 | Memory Ordering | benchmarked |
 | 06 | Deadlocks | planned |
 | 07 | Channels | planned |
 | 08 | Lock-Free Structures | planned |

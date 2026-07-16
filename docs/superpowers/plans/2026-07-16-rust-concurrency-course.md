@@ -214,10 +214,10 @@ For each chapter, complete the following checklist before moving to the next top
 - Create: `examples/memory_ordering_advanced.rs`
 - Create: `examples/memory_ordering_real_case.rs`
 
-- [ ] Teach happens-before, compiler/CPU reordering, `Relaxed`, `Acquire`, `Release`, `AcqRel`, and `SeqCst`.
-- [ ] Compare orderings by guarantees, cost, and failure modes.
-- [ ] Include tests for publication with release/acquire, relaxed counters, and compare-exchange ordering.
-- [ ] Include benchmarks comparing ordering choices only where the measurement is meaningful and documented.
+- [x] Teach happens-before, compiler/CPU reordering, `Relaxed`, `Acquire`, `Release`, `AcqRel`, and `SeqCst`.
+- [x] Compare orderings by guarantees, cost, and failure modes.
+- [x] Include tests for publication with release/acquire, relaxed counters, and compare-exchange ordering.
+- [x] Include benchmarks comparing ordering choices only where the measurement is meaningful and documented.
 
 ### Task 10: Deadlocks
 

@@ -1,0 +1,12 @@
+flowchart LR
+    W["Hilo escritor"] --> P["store payload"]
+    P --> R["store ready = true (Release)"]
+    R --> HB["happens-before"]
+    HB --> A["load ready (Acquire)"]
+    A --> L["load payload"]
+    C["Relaxed counter"] --> O["atomicidad de una variable"]
+    O -. "no publica otros datos" .-> L
+    X["compare_exchange"] --> S{"éxito"}
+    X --> F{"fallo"}
+    S --> SO["ordering de éxito"]
+    F --> FO["ordering de fallo"]

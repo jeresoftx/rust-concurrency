@@ -37,7 +37,7 @@ se explican en este repositorio antes de reutilizarse en cursos posteriores.
 | 02 | RwLock | `src/rwlock.rs` | benchmarked |
 | 03 | Atomics | `src/atomics.rs` | benchmarked |
 | 04 | Arc | `src/arc.rs` | benchmarked |
-| 05 | Memory Ordering | `src/memory_ordering.rs` | planned |
+| 05 | Memory Ordering | `src/memory_ordering.rs` | benchmarked |
 | 06 | Deadlocks | `src/deadlocks.rs` | planned |
 | 07 | Channels | `src/channels.rs` | planned |
 | 08 | Lock-Free Structures | `src/lock_free.rs` | planned |

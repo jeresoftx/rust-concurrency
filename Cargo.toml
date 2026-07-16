@@ -61,6 +61,18 @@ path = "examples/soluciones/arc_shared_catalog.rs"
 name = "solution_arc_weak_upgrade"
 path = "examples/soluciones/arc_weak_upgrade.rs"
 
+[[example]]
+name = "solution_memory_ordering_publish"
+path = "examples/soluciones/memory_ordering_publish.rs"
+
+[[example]]
+name = "solution_memory_ordering_relaxed_counter"
+path = "examples/soluciones/memory_ordering_relaxed_counter.rs"
+
+[[example]]
+name = "solution_memory_ordering_cas"
+path = "examples/soluciones/memory_ordering_cas.rs"
+
 [[bench]]
 name = "mutex_bench"
 harness = false
@@ -75,4 +87,8 @@ harness = false
 
 [[bench]]
 name = "arc_bench"
+harness = false
+
+[[bench]]
+name = "memory_ordering_bench"
 harness = false
