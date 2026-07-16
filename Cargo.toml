@@ -25,6 +25,22 @@ path = "examples/soluciones/mutex_shared_log.rs"
 name = "solution_mutex_recover_poisoning"
 path = "examples/soluciones/mutex_recover_poisoning.rs"
 
+[[example]]
+name = "solution_rwlock_read_trace"
+path = "examples/soluciones/rwlock_read_trace.rs"
+
+[[example]]
+name = "solution_rwlock_shared_catalog"
+path = "examples/soluciones/rwlock_shared_catalog.rs"
+
+[[example]]
+name = "solution_rwlock_recover_poisoning"
+path = "examples/soluciones/rwlock_recover_poisoning.rs"
+
 [[bench]]
 name = "mutex_bench"
+harness = false
+
+[[bench]]
+name = "rwlock_bench"
 harness = false

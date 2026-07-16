@@ -20,7 +20,7 @@ El checklist detallado vive en
 | # | Capítulo | Estado |
 |---|----------|--------|
 | 01 | Mutex | benchmarked |
-| 02 | RwLock | planned |
+| 02 | RwLock | benchmarked |
 | 03 | Atomics | planned |
 | 04 | Arc | planned |
 | 05 | Memory Ordering | planned |

@@ -160,10 +160,10 @@ For each chapter, complete the following checklist before moving to the next top
 - Create: `examples/rwlock_advanced.rs`
 - Create: `examples/rwlock_real_case.rs`
 
-- [ ] Teach shared readers, exclusive writers, read-heavy workloads, fairness, starvation, poisoning, and upgrade pitfalls.
-- [ ] Compare against Mutex, atomics, copy-on-write, and immutable snapshots.
-- [ ] Include tests for multiple readers, writer exclusion, write visibility, poisoning, and read-heavy correctness.
-- [ ] Include benchmarks contrasting read-heavy, write-heavy, and balanced workloads.
+- [x] Teach shared readers, exclusive writers, read-heavy workloads, fairness, starvation, poisoning, and upgrade pitfalls.
+- [x] Compare against Mutex, atomics, copy-on-write, and immutable snapshots.
+- [x] Include tests for multiple readers, writer exclusion, write visibility, poisoning, and read-heavy correctness.
+- [x] Include benchmarks contrasting read-heavy, write-heavy, and balanced workloads.
 
 ### Task 7: Atomics
 

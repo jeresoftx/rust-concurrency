@@ -1,0 +1,15 @@
+flowchart LR
+    R1["Lector A"] --> RL{"¿sin escritor activo?"}
+    R2["Lector B"] --> RL
+    RL -- "sí" --> RG["RwLockReadGuard<T> compartido"]
+    RL -- "no" --> RW["espera o try_read falla"]
+    W["Escritor"] --> WL{"¿sin lectores ni escritor?"}
+    WL -- "sí" --> WG["RwLockWriteGuard<T> exclusivo"]
+    WL -- "no" --> WW["espera o try_write falla"]
+    RG --> RS["leer snapshot protegido"]
+    WG --> WS["modificar invariante protegida"]
+    RS --> RD["drop read guard"]
+    WS --> WD["drop write guard"]
+    RD --> RL
+    WD --> RL
+    WD --> WL
