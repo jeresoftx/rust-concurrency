@@ -163,8 +163,8 @@ impl<T> Clone for BoundedProducer<T> {
 impl<T> BoundedProducer<T> {
     /// Envía un mensaje, esperando si el canal está lleno.
     ///
-    /// Complejidad: O(1) por mensaje. Progreso: puede bloquear por backpressure
-    /// si el consumidor no libera capacidad.
+    /// Complejidad: O(1) por mensaje. Progreso: puede bloquear por
+    /// backpressure si el consumidor no libera capacidad.
     pub fn send(&self, value: T) -> Result<(), SendFailure<T>> {
         self.sender.send(value).map_err(Into::into)
     }
@@ -215,8 +215,8 @@ pub fn bounded_channel<T>(capacity: usize) -> (BoundedProducer<T>, BoundedConsum
 
 /// Worker pool educativo basado en channels.
 ///
-/// El pool implementa fan-out de trabajos hacia varios workers y fan-in de
-/// resultados hacia un solo consumidor interno.
+/// El pool distribuye trabajos hacia varios workers y concentra resultados
+/// hacia un solo consumidor interno.
 ///
 /// # Examples
 ///

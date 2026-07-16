@@ -85,6 +85,18 @@ path = "examples/soluciones/deadlocks_wait_for_cycle.rs"
 name = "solution_deadlocks_ordered_transfer"
 path = "examples/soluciones/deadlocks_ordered_transfer.rs"
 
+[[example]]
+name = "solution_channels_fifo_order"
+path = "examples/soluciones/channels_fifo_order.rs"
+
+[[example]]
+name = "solution_channels_bounded_backpressure"
+path = "examples/soluciones/channels_bounded_backpressure.rs"
+
+[[example]]
+name = "solution_channels_worker_pool"
+path = "examples/soluciones/channels_worker_pool.rs"
+
 [[bench]]
 name = "mutex_bench"
 harness = false
@@ -107,4 +119,8 @@ harness = false
 
 [[bench]]
 name = "deadlocks_bench"
+harness = false
+
+[[bench]]
+name = "channels_bench"
 harness = false

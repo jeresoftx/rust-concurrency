@@ -25,7 +25,7 @@ El checklist detallado vive en
 | 04 | Arc | benchmarked |
 | 05 | Memory Ordering | benchmarked |
 | 06 | Deadlocks | benchmarked |
-| 07 | Channels | planned |
+| 07 | Channels | benchmarked |
 | 08 | Lock-Free Structures | planned |
 | 09 | Hazard Pointers | planned |
 | 10 | Epoch GC | planned |

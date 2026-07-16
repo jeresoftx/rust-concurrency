@@ -250,10 +250,10 @@ For each chapter, complete the following checklist before moving to the next top
 - Create: `examples/channels_advanced.rs`
 - Create: `examples/channels_real_case.rs`
 
-- [ ] Teach message passing, ownership transfer, producers, consumers, bounded vs unbounded channels, backpressure, close semantics, and fan-out/fan-in.
-- [ ] Compare against shared memory, Mutex, Arc, async channels, and actor-style designs.
-- [ ] Include tests for send/receive order, channel close, multiple producers, worker pools, and bounded backpressure if implemented.
-- [ ] Include benchmarks for throughput, bounded capacity effects, and shared-memory alternatives.
+- [x] Teach message passing, ownership transfer, producers, consumers, bounded vs unbounded channels, backpressure, close semantics, and fan-out/fan-in.
+- [x] Compare against shared memory, Mutex, Arc, async channels, and actor-style designs.
+- [x] Include tests for send/receive order, channel close, multiple producers, worker pools, and bounded backpressure if implemented.
+- [x] Include benchmarks for throughput, bounded capacity effects, and shared-memory alternatives.
 
 ### Task 12: Lock-Free Structures
 

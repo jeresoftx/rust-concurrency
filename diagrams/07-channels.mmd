@@ -1,0 +1,15 @@
+flowchart LR
+    P1["Productor A"] --> C["canal acotado"]
+    P2["Productor B"] --> C
+    P3["Productor C"] --> C
+    C -- "capacidad disponible" --> W1["worker 1"]
+    C -- "capacidad disponible" --> W2["worker 2"]
+    C -- "lleno" --> BP["backpressure"]
+    BP --> P1
+    W1 --> R["concentración de resultados"]
+    W2 --> R
+    R --> OUT["consumidor final"]
+    P1 -. "drop" .-> CLOSE["cierre cuando no quedan productores"]
+    P2 -. "drop" .-> CLOSE
+    P3 -. "drop" .-> CLOSE
+    CLOSE --> OUT
