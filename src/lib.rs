@@ -1,9 +1,9 @@
 //! Curso de concurrencia en Rust para Jeresoft Academy.
 //!
-//! Este crate acompana el curso `rust-concurrency`. Cada modulo representa una
-//! primitiva o tecnica canonica del curso y existe para ensenar invariantes,
-//! garantias, modos de falla y tradeoffs. Las implementaciones completas se
-//! agregan capitulo por capitulo.
+//! Este crate acompaña el curso `rust-concurrency`. Cada módulo representa una
+//! primitiva o técnica canónica del curso y existe para enseñar invariantes,
+//! garantías, modos de falla y tradeoffs. Las implementaciones completas se
+//! agregan capítulo por capítulo.
 
 pub mod arc;
 pub mod atomics;

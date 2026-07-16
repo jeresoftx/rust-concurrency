@@ -1,11 +1,11 @@
 # Benchmarks
 
-Los benchmarks validan afirmaciones de complejidad, contencion y costo de
-sincronizacion. No existen para presumir numeros.
+Los benchmarks validan afirmaciones de complejidad, contención y costo de
+sincronización. No existen para presumir números.
 
-Cuando un benchmark compare primitivas, el capitulo debe explicar:
+Cuando un benchmark compare primitivas, el capítulo debe explicar:
 
-- que carga modela;
-- que se mide y que no;
-- que resultado se esperaba;
-- por que cualquier divergencia importa.
+- qué carga modela;
+- qué se mide y qué no;
+- qué resultado se esperaba;
+- por qué cualquier divergencia importa.

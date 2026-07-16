@@ -2,10 +2,10 @@
 
 Los ejemplos muestran cada tema en cuatro niveles:
 
-1. Basico: uso minimo de la API o primitiva.
-2. Intermedio: combinacion de operaciones.
-3. Avanzado: caso limite, medicion o variante.
-4. Caso real: situacion cercana a un sistema de produccion.
+1. Básico: uso mínimo de la API o primitiva.
+2. Intermedio: combinación de operaciones.
+3. Avanzado: caso límite, medición o variante.
+4. Caso real: situación cercana a un sistema de producción.
 
 Convencion de nombres:
 

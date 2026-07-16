@@ -5,33 +5,33 @@ Rust. Pertenece al Semestre 3 del plan de estudios junto con
 `rust-database-internals` (RFC-0001 §10).
 
 El objetivo no es solo mostrar APIs concurrentes. El objetivo es crear un
-recurso educativo completo: cada primitiva debe explicar por que existe, que
-problema resuelve, que invariantes protege, que alternativas tiene, como se
-implementa o modela, como se prueba y como se mide.
+recurso educativo completo: cada primitiva debe explicar por qué existe, qué
+problema resuelve, qué invariantes protege, qué alternativas tiene, cómo se
+implementa o modela, cómo se prueba y cómo se mide.
 
-## Que Contiene
+## Qué Contiene
 
-- Capitulos en Markdown compatibles con mdBook.
-- Implementaciones y modelos Rust idiomaticos, un tema por modulo.
-- Ejemplos progresivos: basico, intermedio, avanzado y caso real.
+- Capítulos en Markdown compatibles con mdBook.
+- Implementaciones y modelos Rust idiomáticos, un tema por módulo.
+- Ejemplos progresivos: básico, intermedio, avanzado y caso real.
 - Tests unitarios, tests de integracion y doctests.
-- Benchmarks que confrontan el analisis teorico con mediciones.
+- Benchmarks que confrontan el análisis teórico con mediciones.
 - Diagramas Mermaid y recursos visuales.
 - Ejercicios graduados con soluciones para niveles 1 a 3.
 
 ## Lugar En El Camino
 
 Este curso vive en el Semestre 3. Recibe ideas de sistemas operativos,
-estructuras de datos y Rust basico, y alimenta bases de datos internals,
-sistemas distribuidos, travel tech, mensajeria, video y performance.
+estructuras de datos y Rust básico, y alimenta bases de datos internals,
+sistemas distribuidos, travel tech, mensajería, video y performance.
 
-La concurrencia es canonica aqui: `Mutex`, `RwLock`, atomicos, `Arc`, memory
+La concurrencia es canónica aquí: `Mutex`, `RwLock`, atómicos, `Arc`, memory
 ordering, deadlocks, channels, estructuras lock-free, hazard pointers y epoch GC
 se explican en este repositorio antes de reutilizarse en cursos posteriores.
 
-## Capitulos
+## Capítulos
 
-| # | Capitulo | Modulo | Estado |
+| # | Capítulo | Módulo | Estado |
 |---|----------|--------|--------|
 | 01 | Mutex | `src/mutex.rs` | planned |
 | 02 | RwLock | `src/rwlock.rs` | planned |
@@ -69,7 +69,7 @@ diagrams/
 assets/
 ```
 
-## Como Usarlo
+## Cómo Usarlo
 
 Ejecutar tests:
 
@@ -83,7 +83,7 @@ Formatear:
 cargo fmt
 ```
 
-Verificacion completa:
+Verificación completa:
 
 ```bash
 cargo fmt --check
@@ -100,15 +100,15 @@ cargo bench
 
 ## Gobernanza
 
-- `AGENTS.md` es la guia de arranque para humanos e IA en este repositorio.
-- `ROADMAP.md` registra el avance del curso sin convertirlo en una fecha limite.
+- `AGENTS.md` es la guía de arranque para humanos e IA en este repositorio.
+- `ROADMAP.md` registra el avance del curso sin convertirlo en una fecha límite.
 - `docs/superpowers/plans/2026-07-16-rust-concurrency-course.md` contiene el
-  checklist de implementacion inicial.
-- `LICENSE.md` resume la doble licencia: codigo bajo `MIT OR Apache-2.0`;
+  checklist de implementación inicial.
+- `LICENSE.md` resume la doble licencia: código bajo `MIT OR Apache-2.0`;
   contenido educativo bajo `CC BY-SA 4.0`.
 
 ## Filosofia
 
-Este repositorio debe poder leerse como un libro de ingenieria. La claridad
-gana sobre el ingenio, la calidad gana sobre la velocidad, y ningun capitulo se
-considera publicable hasta cumplir la anatomia completa de RFC-0001 §14.
+Este repositorio debe poder leerse como un libro de ingeniería. La claridad
+gana sobre el ingenio, la calidad gana sobre la velocidad, y ningún capítulo se
+considera publicable hasta cumplir la anatomía completa de RFC-0001 §14.

@@ -1,42 +1,42 @@
 # AGENTS.md
 
-Este repositorio es parte de la coleccion camino troncal / Semestre 3 de
+Este repositorio es parte de la colección camino troncal / Semestre 3 de
 Jeresoft Academy y se rige por la RFC-0001 (manual fundacional).
 
 ## Objetivo
 
 Crear el mejor recurso educativo posible sobre concurrencia en Rust.
 
-Todo cambio debe mejorar simultaneamente:
+Todo cambio debe mejorar simultáneamente:
 
-- calidad tecnica
+- calidad técnica
 - claridad
-- documentacion
+- documentación
 - mantenibilidad
 
-## Antes de escribir codigo
+## Antes de escribir código
 
 Siempre, en este orden (RFC-0001 §13):
 
 1. Explicar el concepto.
 2. Explicar el problema.
 3. Comparar alternativas.
-4. Justificar la implementacion.
+4. Justificar la implementación.
 
-## Codigo
+## Código
 
 Conforme a RFC-0001 §13:
 
-- Rust idiomatico.
+- Rust idiomático.
 - Clippy limpio y rustfmt sin diffs.
-- Sin `unsafe` salvo justificacion documentada con comentario `// SAFETY:`.
+- Sin `unsafe` salvo justificación documentada con comentario `// SAFETY:`.
 - Comentarios donde aporten valor.
 - Tests concurrentes deben ser deterministas cuando sea posible; si una prueba
-  depende de interleavings, el capitulo debe explicar la limitacion.
+  depende de interleavings, el capítulo debe explicar la limitación.
 
-## Documentacion
+## Documentación
 
-Todo capitulo sigue las doce secciones de RFC-0001 §14 y la plantilla de §16.
+Todo capítulo sigue las doce secciones de RFC-0001 §14 y la plantilla de §16.
 Toda nueva funcionalidad incluye:
 
 - README actualizado.
@@ -49,13 +49,13 @@ Toda nueva funcionalidad incluye:
 
 - Agregar dependencias innecesarias.
 - Optimizar prematuramente.
-- Duplicar codigo.
-- Omitir documentacion.
-- Publicar capitulos parciales.
+- Duplicar código.
+- Omitir documentación.
+- Publicar capítulos parciales.
 - Presentar concurrencia como magia: toda primitiva debe declarar invariantes,
-  garantias y modos de falla.
+  garantías y modos de falla.
 
 ## Filosofia
 
-Este repositorio debe poder utilizarse como un libro de ingenieria. Nunca
-sacrificar claridad por ingenio. Explicar el porque, no solo el como.
+Este repositorio debe poder utilizarse como un libro de ingeniería. Nunca
+sacrificar claridad por ingenio. Explicar el porqué, no solo el cómo.

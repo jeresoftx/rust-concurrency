@@ -3,21 +3,21 @@
 Estado de avance de `rust-concurrency`, repositorio del camino troncal de
 Jeresoft Academy para concurrencia en Rust.
 
-No hay fechas limite: este es un proyecto de legado (RFC-0001 §1). Este archivo
+No hay fechas límite: este es un proyecto de legado (RFC-0001 §1). Este archivo
 orienta el avance, pero no convierte el curso en una carrera por terminar.
 
 ## Estado Actual
 
-El repositorio acaba de nacer. La primera meta es crear la fundacion del curso:
-identidad, crate Rust, estructura de documentacion, CI y un plan de trabajo
+El repositorio acaba de nacer. La primera meta es crear la fundación del curso:
+identidad, crate Rust, estructura de documentación, CI y un plan de trabajo
 ejecutable.
 
 El checklist detallado vive en
 [`docs/superpowers/plans/2026-07-16-rust-concurrency-course.md`](docs/superpowers/plans/2026-07-16-rust-concurrency-course.md).
 
-## Capitulos Planeados
+## Capítulos Planeados
 
-| # | Capitulo | Estado |
+| # | Capítulo | Estado |
 |---|----------|--------|
 | 01 | Mutex | planned |
 | 02 | RwLock | planned |
@@ -30,10 +30,10 @@ El checklist detallado vive en
 | 09 | Hazard Pointers | planned |
 | 10 | Epoch GC | planned |
 
-## Alineacion RFC-0001
+## Alineación RFC-0001
 
 - Este repositorio sigue la plantilla de repositorio de RFC-0001 §15.
-- Cada capitulo debe cumplir la anatomia de RFC-0001 §14.
+- Cada capítulo debe cumplir la anatomía de RFC-0001 §14.
 - Cada ejercicio debe seguir los niveles de RFC-0001 §17.
 - El uso de IA se rige por RFC-0001 §20: la IA acelera, el criterio humano
   decide.
@@ -45,5 +45,5 @@ El checklist detallado vive en
 - Sistemas distribuidos: viven en `rust-distributed-systems`, salvo notas de
   camino.
 - Operating systems internals profundos: viven en `rust-operating-systems`.
-- Implementaciones `unsafe` avanzadas sin justificacion escrita y revision
-  humana explicita.
+- Implementaciones `unsafe` avanzadas sin justificación escrita y revisión
+  humana explícita.

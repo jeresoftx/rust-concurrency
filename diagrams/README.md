@@ -2,7 +2,7 @@
 
 Los diagramas de este curso se escriben en Mermaid siempre que el tipo de
 diagrama lo permita (RFC-0001 §12). Cada archivo debe poder entenderse sin leer
-el capitulo completo: titulo claro, etiquetas completas y leyenda cuando haga
+el capítulo completo: título claro, etiquetas completas y leyenda cuando haga
 falta.
 
 Convencion de nombres:

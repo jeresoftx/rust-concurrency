@@ -98,13 +98,13 @@ For each chapter, complete the following checklist before moving to the next top
 
 - [ ] Create `docs/NN-title.md` using RFC-0001 §16 exactly.
 - [ ] Fill metadata: course, chapter number, prerequisites, code path, video status, site lesson status.
-- [ ] Write `Introduccion`: what the reader learns and what they already need.
-- [ ] Write `Motivacion`: real problem first, formalism second.
-- [ ] Write `Teoria / Historia`: origin, historical problem, and why the primitive or technique exists.
-- [ ] Write `Teoria / Fundamentos`: invariants, guarantees, failure modes, memory model assumptions, and mental model.
-- [ ] Write `Teoria / Casos de uso`: real systems where the topic is useful.
-- [ ] Write `Teoria / Ventajas y limitaciones`: honest tradeoffs.
-- [ ] Write `Teoria / Comparacion con alternativas`: when not to use it.
+- [ ] Write `Introducción`: what the reader learns and what they already need.
+- [ ] Write `Motivación`: real problem first, formalism second.
+- [ ] Write `Teoría / Historia`: origin, historical problem, and why the primitive or technique exists.
+- [ ] Write `Teoría / Fundamentos`: invariants, guarantees, failure modes, memory model assumptions, and mental model.
+- [ ] Write `Teoría / Casos de uso`: real systems where the topic is useful.
+- [ ] Write `Teoría / Ventajas y limitaciones`: honest tradeoffs.
+- [ ] Write `Teoría / Comparación con alternativas`: when not to use it.
 - [ ] Add at least one Mermaid diagram in `diagrams/`.
 - [ ] Write complexity, contention, progress, or synchronization-cost table for every public operation.
 - [ ] State whether interactive visualization applies; if not, justify in one line.
