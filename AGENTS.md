@@ -55,7 +55,7 @@ Toda nueva funcionalidad incluye:
 - Presentar concurrencia como magia: toda primitiva debe declarar invariantes,
   garantías y modos de falla.
 
-## Filosofia
+## Filosofía
 
 Este repositorio debe poder utilizarse como un libro de ingeniería. Nunca
 sacrificar claridad por ingenio. Explicar el porqué, no solo el cómo.

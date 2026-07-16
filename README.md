@@ -14,7 +14,7 @@ implementa o modela, cómo se prueba y cómo se mide.
 - Capítulos en Markdown compatibles con mdBook.
 - Implementaciones y modelos Rust idiomáticos, un tema por módulo.
 - Ejemplos progresivos: básico, intermedio, avanzado y caso real.
-- Tests unitarios, tests de integracion y doctests.
+- Tests unitarios, tests de integración y doctests.
 - Benchmarks que confrontan el análisis teórico con mediciones.
 - Diagramas Mermaid y recursos visuales.
 - Ejercicios graduados con soluciones para niveles 1 a 3.
@@ -107,7 +107,7 @@ cargo bench
 - `LICENSE.md` resume la doble licencia: código bajo `MIT OR Apache-2.0`;
   contenido educativo bajo `CC BY-SA 4.0`.
 
-## Filosofia
+## Filosofía
 
 Este repositorio debe poder leerse como un libro de ingeniería. La claridad
 gana sobre el ingenio, la calidad gana sobre la velocidad, y ningún capítulo se

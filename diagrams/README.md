@@ -5,7 +5,7 @@ diagrama lo permita (RFC-0001 §12). Cada archivo debe poder entenderse sin leer
 el capítulo completo: título claro, etiquetas completas y leyenda cuando haga
 falta.
 
-Convencion de nombres:
+Convención de nombres:
 
 ```text
 NN-nombre-del-capitulo.mmd

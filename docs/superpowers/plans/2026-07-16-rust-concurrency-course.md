@@ -34,7 +34,7 @@
 - [x] Create `README.md` with the course purpose, its place in Semestre 3, how to navigate `docs/`, `src/`, `examples/`, `tests/`, `benches/`, and `diagrams/`.
 - [x] State in `README.md` that this repo teaches concurrency in Rust as part of Jeresoft Academy RFC-0001.
 - [x] Add the planned chapter table in `README.md` with status columns: `planned`, `draft`, `implemented`, `tested`, `benchmarked`, `reviewed`, `published`.
-- [x] Create `AGENTS.md` from RFC-0001 §20, instantiated for `coleccion = camino troncal / Semestre 3` and `tema = concurrencia en Rust`.
+- [x] Create `AGENTS.md` from RFC-0001 §20, instantiated for `colección = camino troncal / Semestre 3` and `tema = concurrencia en Rust`.
 - [x] Create `ROADMAP.md` with the ten chapters and the no-deadlines project philosophy from RFC-0001 §1.
 - [x] Add dual licensing: MIT OR Apache-2.0 for code, CC BY-SA 4.0 for educational content.
 - [x] Run `git status --short` and confirm only intentional foundation files are pending.

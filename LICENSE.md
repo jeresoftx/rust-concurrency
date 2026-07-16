@@ -2,14 +2,14 @@
 
 Este repositorio usa doble licencia, conforme a RFC-0001 §15.
 
-## Codigo
+## Código
 
-El codigo Rust de `src/`, `tests/`, `examples/` y `benches/` se publica bajo:
+El código Rust de `src/`, `tests/`, `examples/` y `benches/` se publica bajo:
 
 - [MIT](./LICENSE-MIT)
 - [Apache-2.0](./LICENSE-APACHE)
 
-La licencia efectiva para codigo es **MIT OR Apache-2.0**, como declara
+La licencia efectiva para código es **MIT OR Apache-2.0**, como declara
 `Cargo.toml`.
 
 ## Contenido educativo
@@ -19,5 +19,5 @@ Markdown del repositorio se publica bajo:
 
 - [Creative Commons Attribution-ShareAlike 4.0 International](./LICENSE-CC-BY-SA-4.0.md)
 
-Esto permite estudiar, adaptar y compartir el material con atribucion y bajo la
+Esto permite estudiar, adaptar y compartir el material con atribución y bajo la
 misma licencia.

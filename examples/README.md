@@ -7,7 +7,7 @@ Los ejemplos muestran cada tema en cuatro niveles:
 3. Avanzado: caso límite, medición o variante.
 4. Caso real: situación cercana a un sistema de producción.
 
-Convencion de nombres:
+Convención de nombres:
 
 ```text
 <modulo>_basic.rs
