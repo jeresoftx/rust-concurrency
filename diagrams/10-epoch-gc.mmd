@@ -1,0 +1,15 @@
+flowchart LR
+    L["lector"] --> P["pin en época global"]
+    P --> R["lee estructura compartida"]
+    R --> Q["unpin: estado quiescente"]
+    W["escritor"] --> RET["retira objeto con época actual"]
+    RET --> BAG["bolsa de retirados"]
+    BAG --> A{"¿puede avanzar la época?"}
+    A -- "sí" --> G["incrementa época global"]
+    A -- "no" --> S["participante estancado"]
+    G --> C{"¿objeto maduro y sin lectores antiguos?"}
+    C -- "sí" --> REC["reclamar objeto"]
+    C -- "no" --> D["retener memoria"]
+    D --> BAG
+    S --> D
+    Q --> A

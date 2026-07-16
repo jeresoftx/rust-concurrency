@@ -121,6 +121,18 @@ path = "examples/soluciones/hazard_delayed_reclaim.rs"
 name = "solution_hazard_threshold_scan"
 path = "examples/soluciones/hazard_threshold_scan.rs"
 
+[[example]]
+name = "solution_epoch_pin_unpin"
+path = "examples/soluciones/epoch_pin_unpin.rs"
+
+[[example]]
+name = "solution_epoch_delayed_reclaim"
+path = "examples/soluciones/epoch_delayed_reclaim.rs"
+
+[[example]]
+name = "solution_epoch_stalled_participant"
+path = "examples/soluciones/epoch_stalled_participant.rs"
+
 [[bench]]
 name = "mutex_bench"
 harness = false
@@ -155,4 +167,8 @@ harness = false
 
 [[bench]]
 name = "hazard_pointers_bench"
+harness = false
+
+[[bench]]
+name = "epoch_gc_bench"
 harness = false

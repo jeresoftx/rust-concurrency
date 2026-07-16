@@ -305,10 +305,10 @@ For each chapter, complete the following checklist before moving to the next top
 - Create: `examples/epoch_gc_advanced.rs`
 - Create: `examples/epoch_gc_real_case.rs`
 
-- [ ] Teach pinned epochs, global epoch advancement, retired objects, quiescent states, stalled participants, and memory retention.
-- [ ] Compare against hazard pointers, reference counting, lock-based reclamation, and tracing GC.
-- [ ] Include tests for pin/unpin, retirement, epoch advancement, blocked advancement, and eventual reclamation.
-- [ ] Include benchmarks for pin overhead, retirement throughput, and delayed reclamation behavior.
+- [x] Teach pinned epochs, global epoch advancement, retired objects, quiescent states, stalled participants, and memory retention.
+- [x] Compare against hazard pointers, reference counting, lock-based reclamation, and tracing GC.
+- [x] Include tests for pin/unpin, retirement, epoch advancement, blocked advancement, and eventual reclamation.
+- [x] Include benchmarks for pin overhead, retirement throughput, and delayed reclamation behavior.
 
 ## Cross-Course Integration
 
