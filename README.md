@@ -33,7 +33,7 @@ se explican en este repositorio antes de reutilizarse en cursos posteriores.
 
 | # | Capítulo | Módulo | Estado |
 |---|----------|--------|--------|
-| 01 | Mutex | `src/mutex.rs` | planned |
+| 01 | Mutex | `src/mutex.rs` | benchmarked |
 | 02 | RwLock | `src/rwlock.rs` | planned |
 | 03 | Atomics | `src/atomics.rs` | planned |
 | 04 | Arc | `src/arc.rs` | planned |

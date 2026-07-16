@@ -12,3 +12,19 @@ name = "rust_concurrency"
 path = "src/lib.rs"
 
 [dependencies]
+
+[[example]]
+name = "solution_mutex_trace_counter"
+path = "examples/soluciones/mutex_trace_counter.rs"
+
+[[example]]
+name = "solution_mutex_shared_log"
+path = "examples/soluciones/mutex_shared_log.rs"
+
+[[example]]
+name = "solution_mutex_recover_poisoning"
+path = "examples/soluciones/mutex_recover_poisoning.rs"
+
+[[bench]]
+name = "mutex_bench"
+harness = false

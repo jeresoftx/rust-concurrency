@@ -38,7 +38,7 @@
 - [x] Create `ROADMAP.md` with the ten chapters and the no-deadlines project philosophy from RFC-0001 §1.
 - [x] Add dual licensing: MIT OR Apache-2.0 for code, CC BY-SA 4.0 for educational content.
 - [x] Run `git status --short` and confirm only intentional foundation files are pending.
-- [ ] Commit: `chore: establish concurrency course foundation`.
+- [x] Commit: `chore: establish concurrency course foundation`.
 
 ### Task 2: Create Cargo Crate Skeleton
 
@@ -62,7 +62,7 @@
 - [x] Run `cargo fmt`.
 - [x] Run `cargo check`.
 - [x] Run `cargo test`.
-- [ ] Commit as part of initial foundation: `chore: establish concurrency course foundation`.
+- [x] Commit as part of initial foundation: `chore: establish concurrency course foundation`.
 
 ### Task 3: Create Course Directory Layout
 
@@ -81,7 +81,7 @@
 - [x] Add `examples/README.md` explaining basic, intermediate, advanced, and real-case examples.
 - [x] Add `tests/README.md` explaining integration-test naming by topic and deterministic concurrency testing.
 - [x] Add `benches/README.md` explaining that benchmarks validate concurrency claims, not vanity performance.
-- [ ] Commit as part of initial foundation: `chore: establish concurrency course foundation`.
+- [x] Commit as part of initial foundation: `chore: establish concurrency course foundation`.
 
 ### Task 4: Add CI and Quality Gates
 
@@ -90,7 +90,7 @@
 
 - [x] Add CI jobs for `cargo fmt --check`, `cargo clippy --all-targets --all-features -- -D warnings`, `cargo test --all-targets`, and `cargo test --doc`.
 - [x] Keep the initial workflow dependency-free unless a tool is justified in `README.md`.
-- [ ] Commit as part of initial foundation: `chore: establish concurrency course foundation`.
+- [x] Commit as part of initial foundation: `chore: establish concurrency course foundation`.
 
 ## Chapter Production Pipeline
 
@@ -141,11 +141,11 @@ For each chapter, complete the following checklist before moving to the next top
 - Create: `examples/mutex_advanced.rs`
 - Create: `examples/mutex_real_case.rs`
 
-- [ ] Teach mutual exclusion, critical sections, shared mutable state, lock guards, poisoning, contention, and scope-based unlock.
-- [ ] Explain why mutex comes first: it anchors invariants, ownership across threads, and the cost of serialization.
-- [ ] Compare against atomics, channels, RwLock, single-thread ownership, and actor-style designs.
-- [ ] Include tests for protected increments, guard-scoped unlock, poisoning recovery, non-reentrant behavior where observable, and contention-safe updates.
-- [ ] Include benchmarks for uncontended lock/unlock, contended increments, and a single-thread baseline.
+- [x] Teach mutual exclusion, critical sections, shared mutable state, lock guards, poisoning, contention, and scope-based unlock.
+- [x] Explain why mutex comes first: it anchors invariants, ownership across threads, and the cost of serialization.
+- [x] Compare against atomics, channels, RwLock, single-thread ownership, and actor-style designs.
+- [x] Include tests for protected increments, guard-scoped unlock, poisoning recovery, non-reentrant behavior where observable, and contention-safe updates.
+- [x] Include benchmarks for uncontended lock/unlock, contended increments, and a single-thread baseline.
 
 ### Task 6: RwLock
 

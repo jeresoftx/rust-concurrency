@@ -1,0 +1,10 @@
+flowchart LR
+    T1["Hilo A"] --> L{"Mutex libre?"}
+    T2["Hilo B"] --> L
+    T3["Hilo C"] --> L
+    L -- "sí" --> G["MutexGuard<T>"]
+    L -- "no" --> W["espera o try_lock falla"]
+    G --> C["sección crítica: leer / modificar / escribir"]
+    C --> D["drop guard al salir de scope"]
+    D --> U["mutex liberado"]
+    W --> L
